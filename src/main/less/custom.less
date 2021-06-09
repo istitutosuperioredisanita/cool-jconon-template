@@ -1,6 +1,11 @@
-@default-background-color: lightseagreen;
-@default-color: #59e7df;
-@default-border-color: #05615c;
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600);
+@default-background-color: #0874e4;
+@default-color: #085cb4;
+@default-border-color: #000000;
+
+body{
+  font-family:"Titillium Web";
+}
 
 .header, .btn-primary {
   background: @default-background-color;
@@ -14,6 +19,12 @@
 
 .nav-list > li > a {
   color: @default-background-color;
+}
+
+.jumbotron {
+  font-family: inherit;
+  color: #FFF !important;
+  border-bottom: 0;
 }
 
 #field .jumbotron {

@@ -1,0 +1,39 @@
+mail:
+  host: 10.236.138.43
+  port: 25
+  username:
+  password:
+  smtp:
+    host: ${mail.host}
+    user: ${mail.username}
+    password: ${mail.password}
+    auth: false
+    starttls:
+      enable: false
+  encoding: UTF-8
+  from:
+    default: jconon.test@cnr.it
+  admin: marco.spasiano@cnr.it
+  to:
+    error:
+      message: marco.spasiano@cnr.it
+  helpdesk: email@inventata.com
+  error:
+    enabled: true
+  create:
+    user:
+      bcc:
+        enabled: false
+attiva:
+  mail:
+    solleciti: false
+  protocol:
+    application: true
+
+rrd:
+  path: remote-shared,remote
+  skipmd5: false
+
+rest:
+  cache:
+    control: 86400
