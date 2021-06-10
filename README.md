@@ -5,7 +5,7 @@ Il progetto fornisce un esempio di come personalizzare in alcune sue parti la pi
 ## Personalizzazione dei colori e del logo
 
 Per la personalizzazione dei colori basta creare il file [custom.less](src/main/less/custom.less)   
-Per il logo basta creare il [file](src/main/resources/META-INF/img/logo.png)
+Per il logo basta creare il [file](src/main/resources/META-INF/img/_logo.png)
 
 ## Personalizzazione delle etichette e Internazionalizzazione
 
