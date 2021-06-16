@@ -1,3 +1,22 @@
+spring:
+  profiles:
+    active: iss,prod
+
+server:
+  servlet:
+    context-path: /
+
+user:
+  admin:
+    password: admin
+
+repository:
+  base:
+    url: http://10.236.138.43:9080/alfresco/
+
+spid:
+  enable: false
+
 mail:
   host: 10.236.138.43
   port: 25
