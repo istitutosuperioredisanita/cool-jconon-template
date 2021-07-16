@@ -26,7 +26,7 @@
     </parent>
 
     <artifactId>cool-jconon-template</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0-ISS</version>
     <name>Concorsi On-Line Template</name>
 
     <properties>
@@ -52,6 +52,11 @@
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast</artifactId>
             <version>${hazelcast.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>msal4j</artifactId>
+            <version>1.7.1</version>
         </dependency>
     </dependencies>
 

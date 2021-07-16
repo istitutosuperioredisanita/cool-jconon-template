@@ -334,7 +334,7 @@ Con questa informativa l'Istituto Superiore di Sanità illustra come utilizzerà
 				<textElement textAlignment="Justified" verticalAlignment="Top" markup="none">
 					<font isBold="false" isUnderline="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Il Titolare del trattamento è: l'Istituto Superiore di Sanità - Viale Regina Elena 299, 00161 – Roma tel. (39) 06 49901, per il tramite dei contatti indicati nell’articolo del bando rubricato “Trattamento dei dati personali”."]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Il Titolare del trattamento è l'Istituto Superiore di Sanità - Viale Regina Elena 299, 00161 – Roma tel. (39) 06 49901, nella persona del suo Legale Rappresentante, che è raggiungibile al seguente recapito di posta elettronica: protocollo.centrale@pec.iss.it."]]></textFieldExpression>
 			</textField>
 		</band>
 		<band height="20" splitType="Stretch">
@@ -350,7 +350,7 @@ Con questa informativa l'Istituto Superiore di Sanità illustra come utilizzerà
 				<textElement textAlignment="Justified" verticalAlignment="Top" markup="none">
 					<font isBold="false" isUnderline="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA["I dati di contatto del Responsabile della protezione dei dati sono: E-mail: responsabile.protezionedati@iss.it - (39) 06 4990xxxx - PEC: xxx@xxx.it presso Istituto Superiore di Sanità - Viale Regina Elena 299, 00161 – Roma."]]></textFieldExpression>
+				<textFieldExpression><![CDATA["I dati di contatto del Responsabile della protezione dei dati presso l'Istituto Superiore di Sanità - Viale Regina Elena 299, 00161 – Roma sono: E-mail: responsabile.protezionedati@iss.it."]]></textFieldExpression>
 			</textField>
 		</band>
 		<band height="20" splitType="Stretch">

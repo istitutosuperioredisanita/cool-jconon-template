@@ -1,0 +1,1 @@
+java -Djavax.xml.parsers.DocumentBuilderFactory=com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl -Duser.language=it -Duser.country=IT -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8087 -jar target/selezioni-template.war --spring.profiles.active=iss,prod
