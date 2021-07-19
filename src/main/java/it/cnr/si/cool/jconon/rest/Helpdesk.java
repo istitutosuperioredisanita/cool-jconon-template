@@ -134,9 +134,11 @@ public class Helpdesk {
 
             message.setBody(body);
 
-            message.setAttachments(Arrays.asList(new AttachmentBean(mRequest
-                    .getFileMap().get("allegato").getOriginalFilename(), mRequest
-                    .getFileMap().get("allegato").getBytes())));
+            if(mRequest.getFileMap().get("allegato")!=null) {
+                message.setAttachments(Arrays.asList(new AttachmentBean(mRequest
+                        .getFileMap().get("allegato").getOriginalFilename(), mRequest
+                        .getFileMap().get("allegato").getBytes())));
+            }
             mailService.send(message);
 
             /*
